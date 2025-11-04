@@ -26,4 +26,49 @@ echo $car['model'];
 $car['model'] ='onix';
 echo "\n";
 echo $car['model'];
-?>
+
+//index
+$cars = [
+  0 => "cobalt",
+  1 => "Test",
+] ;
+
+// bo'sh massiv
+$massiv =[];
+$massiv [0] = "Ismigul";
+$massiv[1] ="So'najon";
+print_r($massiv) ;
+$massiv1 = [];
+$massiv1["ism"] ="kamol";
+$massiv1["familya"] ="rustamov" ;
+$massiv1[0] ="test";
+print_r($massiv1);
+$sonlar =[5,23,4,65,76,7,87,34,] ;
+print_r($sonlar);
+$juft = [];
+//foreach
+$users =["ism" => "Ismigul" , "familiya" =>"Hakimbayeva", "yil" => 2012] ;
+foreach ($users as $key => $value)  {
+   echo  $key. ": ". $value. ",";
+}
+foreach ($users as $value) {
+echo $value."," ;
+}
+$users += ["manzil" => "xonqa", "yosh" => 24];
+print_r($users);
+
+array_splice($sonlar,3,3);
+unset($sonlar [2]);
+print_r($sonlar);
+print_r(array_diff($users, ["Hakimbayeva"])) ;
+
+//sorting
+$sonlar =[5,23,4,65,76,7,87,34,] ;
+sort($sonlar);
+print_r($sonlar);
+
+rsort($sonlar);
+print_r($sonlar);
+
+
+ ?>
