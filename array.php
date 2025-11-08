@@ -61,14 +61,11 @@ array_splice($sonlar,3,3);
 unset($sonlar [2]);
 print_r($sonlar);
 print_r(array_diff($users, ["Hakimbayeva"])) ;
-
-//sorting
+// sorting
 $sonlar =[5,23,4,65,76,7,87,34,] ;
 sort($sonlar);
 print_r($sonlar);
 
 rsort($sonlar);
 print_r($sonlar);
-
-
  ?>
