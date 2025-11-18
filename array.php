@@ -1,4 +1,7 @@
 <?php 
+//includelar
+
+
 //10,20,30,40,50,60//
 //array
 $mevalar =[ "olma", "anor", "uzum"] ;
