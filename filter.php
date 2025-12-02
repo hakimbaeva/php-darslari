@@ -20,8 +20,4 @@ echo "<br>";
     echo"Bu butun son emas";
 }
 
-
- 
-
-
 ?>
