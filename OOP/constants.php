@@ -1,15 +1,16 @@
 <?php
-class Car {
-   public   const BRAND = "BMW";  //class consttant
+
+ class Car {
+   public $model;
+   public const BRAND = "Chevrolet" ;
    public function info() {
-    return self::BRAND ;
+      return "Bu ". self::BRAND . "mashina classi! <br>";
    }
-}
-$bmw = new Car();
-echo $bmw->info()."<br>";
-echo Car::BRAND;
-
-
+ }
+ echo Car::BRAND."<br>";
+ $onix = new Car();
+ echo $onix->info();
+ echo $onix::BRAND;
 
 
 ?>
