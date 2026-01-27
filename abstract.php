@@ -17,10 +17,4 @@ class Dog extends Animal {
 $dog = new Dog();
 echo $dog->eat();
 echo $dog->sound();
-
-
-
-
-
-
 ?>
