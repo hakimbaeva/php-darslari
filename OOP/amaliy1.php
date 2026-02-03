@@ -27,7 +27,7 @@ class Apartment extends House {
     }
 }
 
-$apartment= new Apartment("Xonqa","10-room ");
+$apartment= new Apartment("Xonqa","10-room <br>");
 echo $apartment->adress ;
 echo $apartment->rooms ;
 echo $apartment->openDoor();
